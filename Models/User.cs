@@ -26,7 +26,7 @@ namespace MyProj.Models
             }
         }
 
-        public User(string name, int age, string email, UserRoles role)
+        public User(string name, int age, string email, UserRoles role = UserRoles.Reader)
         {
             try
             {

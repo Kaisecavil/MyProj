@@ -4,4 +4,19 @@
 
 <h1>Test</h1>
  <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy Test</a>
+ <form method="post">
+     <label>Name</label>
+     <input name="name"/><br />
+     <label>Email</label>
+     <input name="email"/><br />
+      <label>Age</label>
+     <input name="age"/>
+     <button type="submit">send</button>
+ </form>
+
+ <form method="post" action="FindById">
+     <label>ID</label>
+     <input name="id" type="number"/><br />
+     <button type="submit">send</button>
+ </form>
 

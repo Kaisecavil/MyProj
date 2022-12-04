@@ -14,9 +14,6 @@ namespace MyProj
     {
         public static void Main(string[] args)
         {
-            ApplicationContext context = new ApplicationContext();
-            context.Users.Add(new User("vlad",19,"@@",UserRoles.Admin));
-            context.SaveChanges();
             CreateHostBuilder(args).Build().Run();
         }
 
